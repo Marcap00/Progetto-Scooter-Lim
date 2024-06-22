@@ -1,0 +1,85 @@
+/*Immagine di background e font style */
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Rettangolo Background grigio*/
+.grey-background{
+    background-color: rgba(0,0,0,0.4);
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 2%;
+    border-radius: 2%;
+}
+
+/*Sezione dell'intestazione*/
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 168px;
+    margin-top: 10%;
+}
+
+h1{
+    margin: 0;
+    color: #32cd32;
+}
+
+/*Sezione della barra dei pulsanti*/
+nav{
+    background-color: #32cd32;
+    text-align: center;
+    padding: 10px;
+    margin: auto 10%;
+}
+/*Sezione dell'elenco dei monopattini */
+main{
+    margin: auto 10%;
+}
+
+main > div {
+    color: white;
+    margin: 2%;
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+p{
+    margin: 3px;
+}
+
+.arrow:before{
+    content: '\21A6';
+}
+
+.bar{
+    height: 25px;
+    border-radius: 5px;
+}
+
+.bar.orange{
+    background-color: orange;
+    width: 300px;
+}
+
+.bar.green{
+    background-color: green;
+    width: 450px;
+}
+
+.bar.red{
+    background-color: red;
+    width: 180px;
+   
+}
+
